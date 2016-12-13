@@ -1,0 +1,210 @@
+.header{
+	
+	background-color: #595959;
+	border-bottom: 3px solid black;
+}
+
+.header__title{
+	float:left;
+	box-sizing:border-box;
+	font-family: 'Roboto Slab', serif;
+	font-size: 26px;
+	color:#ffff00;
+	font-weight: 100;
+	padding: 15px;
+}
+
+.header__nav{
+	float:right;
+	box-sizing: border-box;
+	color:#ffffff;
+	font-size:18px;
+	font-family: 'Roboto Slab' , sans-serif;
+	margin: 30px;
+	padding-top:50px;
+
+}
+
+.tagline{
+	margin: 0px;
+	vertical-align: text-top;
+	background-color: #515151;
+	text-align: center;
+	padding-left:25%;
+	padding-right:25%;
+}
+
+.tagline__text{
+	margin:0px;
+	vertical-align: text-top;
+	padding:40px;
+	font-family: "Roboto Slab", serif;
+	font-size:24px;
+	font-weight: 100;
+	font-style: italic;
+}
+
+.tagline__text__underline{
+	text-decoration: none;
+	border-bottom:2px solid yellow;
+}
+
+.mainimage{
+
+	background-image: url("../assets/coworking.jpg");
+	
+}
+
+.mainimage__textbox{
+	margin:3%;
+	padding: 5%;
+	width:30%;
+	float: right;
+	background-color: rgba(255,255,255,0.8);
+}
+
+.mainimage__button{
+	border-radius: 8px;
+	padding:10px;
+	background-color: #ffff00;
+	font-family: 'Roboto Slab' , sans-serif;
+	font-size:20px;
+	text-align: center;
+
+}
+
+.column__wrapper{
+	padding:3%;
+}
+
+.column--onethird{
+	width:33.333%;
+	line-height: 150%;
+}
+
+.column--twothirds{
+	width:66.666%;
+	line-height: 150%;
+}
+
+
+.column__verticalline{
+    border-left: thick solid #ff0000;
+}
+
+.column {
+	box-sizing: border-box;
+	float: left;
+	padding: 10px;
+}
+
+.column--center{
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.column__button--filter{
+	display:block;
+	border-radius: 3px;
+	padding:10px;
+	background-color: #d3d3d3;
+	border:0px;
+	box-shadow: 0px;
+	font-family: 'Roboto Slab' , sans-serif;
+	font-size:20px;
+	text-align: center;
+	margin: 3px;
+	width: 150px;
+	cursor:pointer;
+	position: relative;
+  	top: 0;
+  	left:0;
+	transition: left ease 0.3s;
+}
+.column__button--filter:hover {
+  left: +10px;
+}
+
+.footer{
+	background-color: black;
+	color:#ffffff;
+	font-family: 'Nunito', sans-serif;
+	padding: 3%;
+}
+
+h3{
+	font-family: 'Roboto Slab', serif;
+	font-size:22px;
+	font-weight: 600;
+}
+
+p{
+	font-family: 'Nunito', sans-serif; sans-serif;
+	font-size: 16px;
+	padding: 10px;
+}
+
+a {
+	margin:5px;
+}
+
+
+ins{
+	text-decoration:underline solid yellow;
+}
+
+img{
+	width:100%;
+}
+
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+
+
+/*
+Stuff below this is CSS designed for the learning pages
+*/
+
+.learnmore__storyblock__textcolumn{
+	box-sizing: border-box;
+	float:left;
+	padding: 1%;
+	width:66.666%;
+}
+
+.learnmore__storyblock__imagecolumn{
+	box-sizing: border-box;
+	float:left;
+	padding: 1%;
+	width:33.333%;
+}
+
+
+.introduction__popover{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    z-index: 9;
+    display: flex;
+    justify-content: center;
+ }
+ .introduction__popover--text{
+
+    align-items: center;
+    color: white;
+    padding: 100px 100px;
+    display: inline-block;
+}
+
