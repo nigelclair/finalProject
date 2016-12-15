@@ -56,6 +56,41 @@ function onEachIteration() {
 // const my10arr = foobar();
 // console.log(my10arr) */
 
+//Trying to built click event for div
+/*
+function popoverClick(){
+	const popover = $(introduction__popover)
+
+
+}
+const introduction__popover = ('introduction__popover')
+
+$('.introduction__popover').click(function(){
+	.introduction__popover.css({opacity:'0.0'
+});
+}
+*/
+// well that was a disaster. Here's one I copied
+
+
+//const introduction__popover = 'introduction__popover'
+//$( 'introduction__popover' ).click(function() {
+//    $('introduction__popover').hide();
+//    $('introduction__popover').css(opacity:'0%');
+//    $('introduction__popover--bodytext').hide();
+//    $('introduction__popover--headertext').hide();
+//});
+
+//ugh ok, how about this?
+//$('introduction__popover').click(function(){
+//   $(this).css(opacity:'0.0');
+//}
+const introduction__popover = $('.js-introduction__popover')
+introduction__popover.click(myFunction)
+function myFunction() {
+    introduction__popover.hide();
+}
+
 
 
 

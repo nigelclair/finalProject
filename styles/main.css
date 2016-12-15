@@ -7,7 +7,7 @@
 .header__title{
 	float:left;
 	box-sizing:border-box;
-	font-family: 'Roboto Slab', serif;
+	font-family:"Roboto Slab", serif;
 	font-size: 26px;
 	color:#ffff00;
 	font-weight: 100;
@@ -19,7 +19,7 @@
 	box-sizing: border-box;
 	color:#ffffff;
 	font-size:18px;
-	font-family: 'Roboto Slab' , sans-serif;
+	font-family:"Roboto Slab", sans-serif;
 	margin: 30px;
 	padding-top:50px;
 
@@ -38,7 +38,7 @@
 	margin:0px;
 	vertical-align: text-top;
 	padding:40px;
-	font-family: "Roboto Slab", serif;
+	font-family:"Roboto Slab", serif;
 	font-size:24px;
 	font-weight: 100;
 	font-style: italic;
@@ -49,32 +49,17 @@
 	border-bottom:2px solid yellow;
 }
 
-.mainimage{
 
-	background-image: url("../assets/coworking.jpg");
-	
-}
-
-.mainimage__textbox{
-	margin:3%;
-	padding: 5%;
-	width:30%;
-	float: right;
-	background-color: rgba(255,255,255,0.8);
-}
-
-.mainimage__button{
-	border-radius: 8px;
-	padding:10px;
-	background-color: #ffff00;
-	font-family: 'Roboto Slab' , sans-serif;
-	font-size:20px;
-	text-align: center;
-
-}
-
-.column__wrapper{
+/* This is my guy for the nav elements*/
+.button__wrapper{
+	float:left;
 	padding:3%;
+	position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 9;
+    background-color:#819968; 
+    border-radius: 20px
 }
 
 .column--onethird{
@@ -110,7 +95,7 @@
 	background-color: #d3d3d3;
 	border:0px;
 	box-shadow: 0px;
-	font-family: 'Roboto Slab' , sans-serif;
+	font-family:"Roboto Slab", sans-serif;
 	font-size:20px;
 	text-align: center;
 	margin: 3px;
@@ -133,8 +118,8 @@
 }
 
 h3{
-	font-family: 'Roboto Slab', serif;
-	font-size:22px;
+	font-family:"Roboto Slab', serif;
+	font-size:26px;
 	font-weight: 600;
 }
 
@@ -149,14 +134,6 @@ a {
 }
 
 
-ins{
-	text-decoration:underline solid yellow;
-}
-
-img{
-	width:100%;
-}
-
 
 
 .clearfix:after {
@@ -168,10 +145,8 @@ img{
 	height: 0;
 }
 
-
-
 /*
-Stuff below this is CSS designed for the learning pages
+These two are for column layouts
 */
 
 .learnmore__storyblock__textcolumn{
@@ -188,23 +163,50 @@ Stuff below this is CSS designed for the learning pages
 	width:33.333%;
 }
 
+/*Google Maps needs some fiddling to be in a good spot*/
+.googlemap {
+	display: block;
+	z-index: -1;
+	position: absolute;
+	left: -120px;
+    top: -20px;
 
+}
+
+/*This is for the  intro popover click-functionality*/
 .introduction__popover{
     position: fixed;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: black;
-    z-index: 9;
-    display: flex;
+    background-color: #819968;
+    z-index: 999;
+    display: block;
     justify-content: center;
  }
- .introduction__popover--text{
 
+ .introduction__popover--headertext{
+ 	font-family:'Roboto Slab', serif;
+    text-align:center;
     align-items: center;
     color: white;
-    padding: 100px 100px;
-    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width:100%;
+    display::block;
+    font-size: 45px
+}
+
+ .introduction__popover--bodytext{
+
+ 	font-family: 'Nunito', sans-serif; sans-serif;
+    text-align: center;
+    align-items: center;
+    color: white;
+    display:block;
+    padding:0% 15% 0% 15%;
+    font-size: 26px
+    letter-spacing:2px;
 }
 
