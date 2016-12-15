@@ -5,7 +5,7 @@
     <title>Terwaa : The Whisky Visualizer</title>
      <link rel="stylesheet" type="text/css" href="styles/reset.css">
     <link rel="stylesheet" type="text/css" href="styles/main.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.min.css">
     
     <link  type="text/css" href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 
@@ -31,10 +31,14 @@
         !-->
     </header>
         <div class="introduction__popover js-introduction__popover">
-        <h1 class="introduction__popover--headertext">Welcome to Terwaa!</h1>
+        <h1 class="introduction__popover--headertext">
+        Welcome to Terwaa!</h1>
 
         <p class="introduction__popover--bodytext">
-        This project helps visualize the complex elements of Scotch whisky by mapping flavors to regions of Scotland. Use this tool to explore the various profiles of Scotland’s storied distilleries, or find a new favorite.
+        This project helps visualize the complex elements of Scotch whisky by mapping flavors to regions of Scotland. 
+        <br>
+        Use this tool to explore the various profiles of Scotland’s storied distilleries, or find a new favorite.
+        <br>
         <br>
         Just click to get started.
         </p>
@@ -42,26 +46,29 @@
 
     <main>
         <section>
-        
-             <div class="column__wrapper clearfix">
+        <!-- here is the lovely nav thing -->
+            <div class="button__wrapper js-button__wrapper clearfix">
                 <div class=" column column--onethird clearfix">
                     <h3>Search By Filter</h3>
                     <button class="column__button--filter hover--right js-btn-floral"> 
                     Floral
                     </button>
-                    <button class="column__button--filter"> 
+                    <button class="column__button--filter
+                    js-column__button--filter"> 
                     Smoke
                     </button>
-                    <button class="column__button--filter"> 
+                    <button class="column__button--filter js-column__button--filter"> 
                     Spice
                     </button>
-                    <button class="column__button--filter"> 
+                    <button class="column__button--filter js-column__button--filter"> 
                     Sweet
                     </button>
                 </div>
-                <div class=" column column--twothirds">
+            </div>
+
+                <div>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2729645.6601453885!2d-8.838065592852985!3d56.8634380380327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1481477786903" width="1300" height="900" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
+                </div> <!-- This is the Map!-->
             </div>
         </section>
         <footer>
