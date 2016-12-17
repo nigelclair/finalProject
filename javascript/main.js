@@ -1,95 +1,19 @@
-/* function foobar(event) {
-	console.log(event)
-	console.log(9)
-}
-
-$('.js-btn-floral').click(foobar);
-
-// const arr = ['a','b', 'c', 'd'];
-// console.log(arr)
-
-// for( let i = 0; i < arr.length; i = i + 1 ) {
-// 	console.log('current value of i is: ' + i)
-// 	console.log('current iteration is: ' + arr[i]);
-// }
-
-function forEach( arr, callbackFunction ) {
-	for( let i = 0; i < arr.length; i = i + 1 ) {
-		const currentElement = arr[i]
-		callbackFunction( currentElement, i );
-	}
-}
-
-function map( arr, callbackFunction ) {
-	const newArr = []
-	for( let i = 0; i < arr.length; i = i + 1 ) {
-		const currentElement = arr[i]
-		newArr[i] = callbackFunction( currentElement, i );
-	}
-
-	return newArr;	
-}
-
-const newArray = [{
-	name: 'taq'
-}, {
-	name: 'nigel'
-}];
-
-forEach( newArray, onEachIteration )
-const newNewArray = map( newArray, function(current) {
-	return 'Hello ' + current.name;
-})
-console.log(newNewArray)
-function onEachIteration() {
-	console.log('YOLO') 
-}
-
-// function foobar() {
-// 	const arr = [];
-// 	for( let i = 0; i < 9; i = i + 1) {
-// 		arr[i] = 10;
-// 	}
-// 	return arr;
-// }
-
-// const my10arr = foobar();
-// console.log(my10arr) */
-
-//Trying to built click event for div
-/*
-function popoverClick(){
-	const popover = $(introduction__popover)
 
 
-}
-const introduction__popover = ('introduction__popover')
-
-$('.introduction__popover').click(function(){
-	.introduction__popover.css({opacity:'0.0'
-});
-}
-*/
-// well that was a disaster. Here's one I copied
-
-
-//const introduction__popover = 'introduction__popover'
-//$( 'introduction__popover' ).click(function() {
-//    $('introduction__popover').hide();
-//    $('introduction__popover').css(opacity:'0%');
-//    $('introduction__popover--bodytext').hide();
-//    $('introduction__popover--headertext').hide();
-//});
-
-//ugh ok, how about this?
-//$('introduction__popover').click(function(){
-//   $(this).css(opacity:'0.0');
-//}
 const introduction__popover = $('.js-introduction__popover')
 introduction__popover.click(myFunction)
 function myFunction() {
     introduction__popover.hide();
 }
+
+// // Selection Button Functions
+// const introduction__popover = $('.js-column__button--filter')
+// introduction__popover.click(myFunction)
+// function myFunction() {
+// 	// make a new class pls
+//     .js-column__button--filter.hide();
+// }
+
 
 
 
