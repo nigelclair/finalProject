@@ -1,213 +1,36 @@
-.header{
-	
-	background-color: #595959;
-	border-bottom: 3px solid black;
-}
+      #map {
+        height: 100%;
+     }
+ 
 
-.header__title{
-	float:left;
-	box-sizing:border-box;
-	font-family:'Roboto Condensed', sans-serif;
-	font-size: 26px;
-	color:#ffff00;
-	font-weight: 100;
-	padding: 15px;
-}
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+     }
 
-.header__nav{
-	float:right;
-	box-sizing: border-box;
-	color:#ffffff;
-	font-size:18px;
-	font-family:'Roboto Condensed', sans-serif;
-	margin: 30px;
-	padding-top:50px;
+     .buttons-wrap {
+     	padding: 2%;
+     	position: fixed;
+     	bottom: 0;
+     	left: 0;
+     	height: 100% ;
+     	background-color: rgba(255,255,255,1);
+     	width: 20%;
+     }
+     .css-buttons {
+     	background-color: white;
+     	margin-top: 5%;
+     	text-align: center;
+     }
 
-}
+    .form--style{
+    	margin: 5%;
+    	padding: 5%;
 
-.tagline{
-	margin: 0px;
-	vertical-align: text-top;
-	background-color: #515151;
-	text-align: center;
-	padding-left:25%;
-	padding-right:25%;
-}
+    }
 
-.tagline__text{
-	margin:0px;
-	vertical-align: text-top;
-	padding:40px;
-	font-family:'Roboto Condensed', sans-serif;
-	font-size:24px;
-	font-weight: 100;
-	font-style: italic;
-}
-
-.tagline__text__underline{
-	text-decoration: none;
-	border-bottom:2px solid yellow;
-}
-
-
-/* This is my guy for the nav elements*/
-.button__wrapper{
-	float:left;
-	padding:3%;
-	position: absolute;
-    left: 20px;
-    top: 20px;
-    z-index: 9;
-    background-color:#819968; 
-    border-radius: 20px;
-    box-shadow: 3px 3px 3px #6a8252;
-}
-
-.column--onethird{
-	width:33.333%;
-	line-height: 150%;
-}
-
-.column--twothirds{
-	width:66.666%;
-	line-height: 150%;
-}
-
-
-.column__verticalline{
-    border-left: thick solid #ff0000;
-}
-
-.column {
-	box-sizing: border-box;
-	float: left;
-	padding: 10px;
-}
-
-.column--center{
-	border-left: 1px solid black;
-	border-right: 1px solid black;
-}
-
-.column__button--filter{
-	display:block;
-	border-radius: 3px;
-	padding:10px;
-	background-color: #d3d3d3;
-	border:0px;
-	box-shadow: 0px;
-	font-family:'Roboto Condensed', sans-serif;
-	font-size:20px;
-	text-align: center;
-	margin: 3px;
-	width: 150px;
-	cursor:pointer;
-	position: relative;
-  	top: 0;
-  	left:0;
-	transition: left ease 0.3s;
-}
-.column__button--filter:hover {
-  left: +10px;
-}
-
-.footer{
-	background-color: black;
-	color:#ffffff;
-	font-family: 'Nunito', sans-serif;
-	padding: 3%;
-}
-
-h3{
-	font-family:'Roboto Condensed', sans-serif;
-	font-size:26px;
-	font-weight: 600;
-}
-
-p{
-	font-family: 'Nunito', sans-serif; sans-serif;
-	font-size: 16px;
-	padding: 10px;
-}
-
-a {
-	margin:5px;
-}
-
-
-
-
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
-}
-
-/*
-These two are for column layouts
-*/
-
-.learnmore__storyblock__textcolumn{
-	box-sizing: border-box;
-	float:left;
-	padding: 1%;
-	width:66.666%;
-}
-
-.learnmore__storyblock__imagecolumn{
-	box-sizing: border-box;
-	float:left;
-	padding: 1%;
-	width:33.333%;
-}
-
-/*Google Maps needs some fiddling to be in a good spot*/
-.googlemap {
-	display: block;
-	z-index: -1;
-	position: absolute;
-	left: -120px;
-    top: -20px;
-
-}
-
-/*This is for the  intro popover click-functionality*/
-.introduction__popover{
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #819968;
-    z-index: 999;
-    display: block;
-    justify-content: center;
- }
-
- .introduction__popover--headertext{
- 	font-family:'Roboto Condensed', sans-serif;
-    text-align:center;
-    align-items: center;
-    color: white;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    width:100%;
-    display::block;
-    font-size: 45px
-}
-
- .introduction__popover--bodytext{
-
- 	font-family: 'Nunito', sans-serif; sans-serif;
-    text-align: center;
-    align-items: center;
-    color: white;
-    display:block;
-    padding:0% 15% 0% 15%;
-    font-size: 26px
-    letter-spacing:2px;
-}
-
+    button{
+    	text-align: center;
+    	align-content: center;
+    }

@@ -1,89 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Terwaa : The Whisky Visualizer</title>
-     <link rel="stylesheet" type="text/css" href="styles/reset.css">
-    <link rel="stylesheet" type="text/css" href="styles/main.css">
-  
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.min.css">
-    
-    <link  type="text/css" href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=1.0" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.min.css">
+        <link rel="stylesheet" type="text/css" href="styles/main.css">
+    </head>
+    <body id="map-container">
+      <div id="map"></div>
+        <div class="buttons-wrap">
+<!--         	<i class="add to calendar icon"></i>
+            <button class="ui button js-btn-1"></button>
+            <button class="js-btn-2">Btn 2</button>   -->
+            	<h4> Let's find your next Scotch.</h4>
+            	<p>Select a flavor profile to find distilleries that make whiskies that will suit your preference. Closer matches will be indicated by larger circles. Once you find a likely match, zoom in to find the distillery.</p>
+				<div class="ui horizontal divider"> <i class="search icon"> </i></div>
+   				<h4> What flavor profile are you searching for? </h4>
+            	<div class="ui fluid vertical labeled buttons css-buttons js-buttons">
+  					<button class="fluid ui button js-btn-smoky">
+ 					   <!-- <i class="pause icon"></i> -->
+ 					   Smoky
+ 					 </button>
+ 					 <button class="fluid ui button js-btn-peaty">
+ 					 <!--   <i class="play icon"></i> -->
+ 					   Peaty
+ 					 </button>
+ 					 <button class="fluid ui button js-btn-spicy">
+ 					  <!--  <i class="shuffle icon"></i> -->
+ 					   Spicy
+ 					 </button>
+ 					  <button class="fluid ui button js-btn-herbal">
+ 				<!-- 	   <i class="shuffle icon"></i> -->
+ 					   Herbal
+ 					 </button>
+					</div>  
+      	</div>
 
-    <link type="text/css" href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
-
-</head>
-<body>
-    <header>
-        <!--
-        <div class="header clearfix">
-            <div class="header__title">
-                <img src="assets/header_logo_placeholder.png"alt= "logo for Terwaa website">
-                 <h1>Terwaa</h1> 
-            </div>
-            <nav class="header__nav clearfix">
-                <a class= href=""> Scotch Terwaa Map</a> 
-                <a class= href="">Learn About Scotch</a> 
-                 <a class= href="">How it works</a> 
-                <a class= href="">Our Team</a> 
-                <a class= href="">Blog</a> 
-             </nav>
-        </div>
-        !-->
-    </header>
-        <div class="introduction__popover js-introduction__popover">
-        <h1 class="introduction__popover--headertext">
-        Welcome to Terwaa!</h1>
-
-        <p class="introduction__popover--bodytext">
-        This project helps visualize the complex elements of Scotch whisky by mapping flavors to regions of Scotland. 
-        <br>
-        Use this tool to explore the various profiles of Scotland’s storied distilleries, or find a new favorite.
-        <br>
-        <br>
-        Just click to get started.
-        </p>
-        </div>
-
-    <main>
-        <section>
-        <!-- here is the lovely nav thing -->
-            <div class="button__wrapper js-button__wrapper clearfix">
-                <div class=" column column--onethird clearfix">
-                    <h3>Search By Filter</h3>
-                    <button class="column__button--filter hover--right js-btn-floral"> 
-                    Floral
-                    </button>
-                    <button class="column__button--filter
-                    js-column__button--filter"> 
-                    Smoke
-                    </button>
-                    <button class="column__button--filter js-column__button--filter"> 
-                    Spice
-                    </button>
-                    <button class="column__button--filter js-column__button--filter"> 
-                    Sweet
-                    </button>
-                </div>
-            </div>
-
-                <div>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2729645.6601453885!2d-8.838065592852985!3d56.8634380380327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1481477786903" width="1300" height="900" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div> <!-- This is the Map!-->
-            </div>
-        </section>
-        <footer>
-            <div >
-                <h4 class="footer"> © 2016 Nigel Clair.
-                </h4>
-            </div>
-        </footer>
-    
-    </main>
-     <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
-    <script src='javascript/main.js'></script>
-    
-</body>
+       
+        <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+        <script type="text/javascript" src='script/mainAdvanced.js'></script>
+        <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtbXuJTa1dq8kpFOfWv9O74uPNUyQ8474&callback=initMap"></script>
+    </body>
 </html>

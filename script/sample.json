@@ -1,0 +1,209 @@
+eqfeed_callback({"type": "FeatureCollection",
+	"metadata": {
+		"generated": 1395197681000,
+		"url": "http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_week.geojsonp",
+		"title": "USGS Magnitude 1.0+ Earthquakes, Past Week",
+		"status": 200,
+		"api": "1.0.13",
+		"count": 3
+	},
+	//went platinum with no
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"mag": 100,
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-3.2103307,
+					57.4845275,
+				]
+			},
+			"id": "Macallan"
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"mag": 46,
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-6.289846,
+					55.756868,
+				]
+			},
+			"id": "Bowmore"
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"mag": 53,
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-6.3570732,
+					57.3023159,
+				]
+			},
+			"id": "Talisker"
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"mag": 53,
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-6.1262054,
+					55.6355151,
+				]
+			},
+			"id": "Lagavulin"
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"mag": 58,
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-3.0847,
+					58.4354,
+				]
+			},
+			"id": "Old Pultney"
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"mag": 43,
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-3.1286601,
+					57.4547645,
+				]
+			},
+			"id": "Glenfiddich"
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"mag": 43,
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-5.6097508,
+					55.4257842,
+				]
+			},
+			"id": "Springbank"
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"mag": 43,
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-3.3953227,
+					57.4097188,
+				]
+			},
+			"id": "Cragganmore"
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"mag": 43,
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-6.1543927,
+					55.6300569,
+				]
+			},
+			"id": "Laphroiag"
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"mag": 43,
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-3.3523197,
+					57.4704521,
+				]
+			},
+			"id": "Cardhu"
+		},
+		
+		// 	{
+		// 	"type": "Feature",
+		// 	"properties": {
+		// 		"Smoky":40,
+		// 		"Peaty":30,
+		// 		"Spicy":40,
+		// 		"Herbal":20,
+		// 		"Oily":40,
+		// 		"Full_bodied":70,
+		// 		"Rich":80,
+		// 		"Sweet":70,
+		// 		"Briny":20,
+		// 		"Salty":40,
+		// 		"Vanilla":50,
+		// 		"Tart":50,
+		// 		"Fruity":70,
+		// 		"floral":20,
+		// 		},
+		// 	"geometry": {
+		// 		"type": "Point",
+		// 		"coordinates": [
+		// 			-3.2103307,
+		// 			57.4845275,
+		// 		]
+		// 	},
+		// 		"Id":”17578”, // < not sure if useful but may be helpful 
+		// 		“Name”: “Highland Park 18 Year”,
+		// 		"brand": "Highland Park" // < this is what the map point will be for the distilleries.
+		// },
+// these are done LAT, LONG. Data below wants LONG, LAT!!!
+// 	2 - "Macallan" : 57.4845275,-3.2103307, 
+// 6 - “Bowmore” : 55.756868,-6.289846,
+// 15 – 	“Talisker” : 57.3023159,-6.3570732
+// 16 - "Lagavulin" : 55.6355151,-6.1262054
+// 24 “Old Pultney” : 58.4354,-3.0847
+// 32 “Glenfiddich” : 57.4547645,-3.1286601
+// 46 – “ Springbank”  : 55.4257842,-5.6097508, 
+// 67 Cragganmore :  57.4097188,-3.3953227
+// 182 “Laphroiag” : 55.6300569,-6.1543927
+// 199 “Cardhu” : 57.4704521,-3.3523197
+
+],"bbox":[-179.463,-60.7674,-2.9,178.4321,67.0311,609.13]})
+
+/*
+
+eqfeed_callback(
+{"type":"FeatureCollection","metadata":{"generated":1395197681000,
+"url":"http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_week.geojsonp",
+"title":"USGS Magnitude 1.0+ Earthquakes, Past Week","status":200,"api":"1.0.13","count":2},
+"features":[
+
+],"bbox":[-179.463,-60.7674,-2.9,178.4321,67.0311,609.13]})
+
+*/
+
+
+
