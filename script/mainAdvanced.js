@@ -1,4 +1,5 @@
 
+
 const obj1 = {
   "Macallan": [
           -3.2103307,
@@ -60,6 +61,18 @@ const obj1 = {
        
 }
 
+const introduction__popover = $('.js-introduction__popover')
+introduction__popover.click(myFunction)
+function myFunction() {
+    introduction__popover.hide();
+$('.ui.sidebar').sidebar('show');
+}
+
+const topMenu = $('.js-menu')
+topMenu.click(myFunction2)
+function myFunction2() {
+$('.ui.sidebar').sidebar('show');
+}
 
       var map;
       var mapStyle = [{
@@ -95,7 +108,9 @@ const obj1 = {
 
 
         document.querySelector('.js-btn-smoky').addEventListener('click', function(e) {
+          $('.ui.sidebar').sidebar('hide');
           map.data.setStyle(function(feature){
+
             return {
               icon: {
                 path: google.maps.SymbolPath.CIRCLE,
@@ -104,9 +119,9 @@ const obj1 = {
                 fillColor: 'red',
                 fillOpacity: 0.65, //1 / feature.getProperty('mag'),
                 // while an exponent would technically be correct, quadratic looks nicer
-                scale: Math.pow(feature.getProperty('mag'), 1)
+                scale: Math.pow(feature.getProperty('smoky')*100, 1)
               },
-              zIndex: Math.floor(feature.getProperty('mag'))
+              zIndex: Math.floor(feature.getProperty('smoky'))
             };
 
 
@@ -114,6 +129,7 @@ const obj1 = {
         });
 
         document.querySelector('.js-btn-peaty').addEventListener('click', function(e) {
+          $('.ui.sidebar').sidebar('hide');
           map.data.setStyle(function(feature){
             return {
               icon: {

@@ -3,41 +3,114 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="initial-scale=1.0" />
+        <!-- Style Sheets -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.min.css">
         <link rel="stylesheet" type="text/css" href="styles/main.css">
+        <!-- Font City -->
+        <link  type="text/css" href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+        <link type="text/css" href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+        <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
     </head>
     <body id="map-container">
-      <div id="map"></div>
-        <div class="buttons-wrap">
-<!--         	<i class="add to calendar icon"></i>
-            <button class="ui button js-btn-1"></button>
-            <button class="js-btn-2">Btn 2</button>   -->
-            	<h4> Let's find your next Scotch.</h4>
-            	<p>Select a flavor profile to find distilleries that make whiskies that will suit your preference. Closer matches will be indicated by larger circles. Once you find a likely match, zoom in to find the distillery.</p>
-				<div class="ui horizontal divider"> <i class="search icon"> </i></div>
-   				<h4> What flavor profile are you searching for? </h4>
-            	<div class="ui fluid vertical labeled buttons css-buttons js-buttons">
-  					<button class="fluid ui button js-btn-smoky">
- 					   <!-- <i class="pause icon"></i> -->
- 					   Smoky
- 					 </button>
- 					 <button class="fluid ui button js-btn-peaty">
- 					 <!--   <i class="play icon"></i> -->
- 					   Peaty
- 					 </button>
- 					 <button class="fluid ui button js-btn-spicy">
- 					  <!--  <i class="shuffle icon"></i> -->
- 					   Spicy
- 					 </button>
- 					  <button class="fluid ui button js-btn-herbal">
- 				<!-- 	   <i class="shuffle icon"></i> -->
- 					   Herbal
- 					 </button>
-					</div>  
-      	</div>
+        <div class="ui simple sidebar inverted vertical menu left">
+            <div class="buttons-wrap">
+                <!--         	<i class="add to calendar icon"></i>
+                    <button class="ui button js-btn-1"></button>
+                    <button class="js-btn-2">Btn 2</button>   -->
+                <h4> Let's find your next Scotch.</h4>
+                <p>Select a flavor profile to find distilleries that make whiskies that suit your preference. Closer matches will be indicated by larger circles. Once you find a likely match, zoom in to find the distillery.</p>
+                <div class="ui horizontal divider"> <i class="search icon"> </i></div>
+                <h4> What flavor profile are you searching for? </h4>
+                <div class="ui fluid vertical buttons css-buttons js-buttons">
+                    <button class="fluid ui button js-btn-smoky">
+                        <!-- <i class="pause icon"></i> -->
+                        Smoky
+                    </button>
+                    <button class="fluid ui button js-btn-peaty">
+                        <!--   <i class="play icon"></i> -->
+                        Peaty
+                    </button>
+                    <button class="fluid ui button js-btn-spicy">
+                        <!--  <i class="shuffle icon"></i> -->
+                        Spicy
+                    </button>
+                    <button class="fluid ui button js-btn-herbal">
+                        <!-- 	   <i class="shuffle icon"></i> -->
+                        Herbal
+                    </button>
+                 	<button class="fluid ui button js-btn-smoky">
+                        <!-- <i class="pause icon"></i> -->
+                        Smoky
+                    </button>
+                    <button class="fluid ui button js-btn-peaty">
+                        <!--   <i class="play icon"></i> -->
+                        Peaty
+                    </button>
+                    <button class="fluid ui button js-btn-spicy">
+                        <!--  <i class="shuffle icon"></i> -->
+                        Spicy
+                    </button>
+                    <button class="fluid ui button js-btn-herbal">
+                        <!-- 	   <i class="shuffle icon"></i> -->
+                        Herbal
+                    </button>
+                    <button class="fluid ui button js-btn-smoky">
+                        <!-- <i class="pause icon"></i> -->
+                        Smoky
+                    </button>
+                    <button class="fluid ui button js-btn-peaty">
+                        <!--   <i class="play icon"></i> -->
+                        Peaty
+                    </button>
+                    <button class="fluid ui button js-btn-spicy">
+                        <!--  <i class="shuffle icon"></i> -->
+                        Spicy
+                    </button>
+                    <button class="fluid ui button js-btn-herbal">
+                        <!-- 	   <i class="shuffle icon"></i> -->
+                        Herbal
+                    </button>
+                    <button class="fluid ui button js-btn-spicy">
+                        <!--  <i class="shuffle icon"></i> -->
+                        Spicy
+                    </button>
+                    <button class="fluid ui button js-btn-herbal">
+                        <!-- 	   <i class="shuffle icon"></i> -->
+                        Herbal
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="pusher white">
+        	<!-- put menu here -->
+        		<div class="ui top attached menu js-menu">
+        			<div class="css-menu-icon">
+        			<i class="content icon "></i>		
+        			</div>
+        			<p class="css-menu-icon">Terwaa</p>
+   				</div>
 
-       
+        	<!--  -->
+            <div class="introduction__popover js-introduction__popover">
+                <h1 class="introduction__popover--headertext">
+                    WELCOME TO TERWAA
+                </h1>
+                <p class="introduction__popover--bodytext">
+                    This project helps visualize the complex elements of Scotch whisky by mapping flavors to regions of Scotland. 
+                    <br>
+                    Use this tool to explore the various profiles of Scotland’s storied distilleries, or find a new favorite.
+                </p>
+                <h3 class="introduction__popover--clicktext"> 
+                    Just click to get started.
+                </h3>
+                
+            </div>
+            <div id="map"></div>
+        </div>
+        <!-- pusher -->
         <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.min.js"></script>
         <script type="text/javascript" src='script/mainAdvanced.js'></script>
         <script async defer
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtbXuJTa1dq8kpFOfWv9O74uPNUyQ8474&callback=initMap"></script>
