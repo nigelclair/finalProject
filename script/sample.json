@@ -1,0 +1,447 @@
+eqfeed_callback({"type": "FeatureCollection",
+	"metadata": {
+		"generated": 1395197681000,
+		"url": "http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_week.geojsonp",
+		"title": "USGS Magnitude 1.0+ Earthquakes, Past Week",
+		"status": 200,
+		"api": "1.0.13",
+		"count": 3
+	},
+	//went platinum with no
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+					"smoky":0.175,
+					"peaty":0,
+					"spicy":0.325,
+					"herbal":0.0625,
+					"oily":0.1875,
+					"full_bodied":0.7625,
+					"rich":0.775,
+					"sweet":0.7125,
+					"briny":0.025,
+					"salty":0.025,
+					"vanilla":0.425,
+					"tart":0.1875,
+					"fruity":0.5125,
+					"floral":0.1375
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-3.2103307,
+					57.4845275,
+				]
+			},
+			"id": "Macallan"
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"smoky": 0.22857142857142856,
+	            "peaty": 0.22380952380952382,
+	            "spicy": 0.24761904761904763,
+	            "herbal": 0.10714285714285714,
+	            "oily": 0.1595238095238095,
+	            "full_bodied": 0.30952380952380953,
+	            "rich": 0.31666666666666665,
+	            "sweet": 0.30238095238095236,
+	            "briny": 0.15,
+	            "salty": 0.20476190476190476,
+	            "vanilla": 0.2,
+	            "tart": 0.17142857142857143,
+	            "fruity": 0.2785714285714286,
+	            "floral": 0.1
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-6.289846,
+					55.756868,
+				]
+			},
+			"id": "Bowmore"
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				 "smoky": 0.35714285714285715,
+	            "peaty": 0.33214285714285713,
+	            "spicy": 0.32571428571428573,
+	            "herbal": 0.2857142857142857,
+	            "oily": 0.25357142857142856,
+	            "full_bodied": 0.2892857142857143,
+	            "rich": 0.3678571428571429,
+	            "sweet": 0.3142857142857143,
+	            "briny": 0.21071428571428572,
+	            "salty": 0.24642857142857144,
+	            "vanilla": 0.21785714285714286,
+	            "tart": 0.16428571428571428,
+	            "fruity": 0.3,
+	            "floral": 0.16071428571428573
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-6.3570732,
+					57.3023159,
+				]
+			},
+			"id": "Talisker"
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"smoky": 0.435,
+	            "peaty": 0.45,
+	            "spicy": 0.325,
+	            "herbal": 0.239,
+	            "oily": 0.205,
+	            "full_bodied": 0.44,
+	            "rich": 0.395,
+	            "sweet": 0.31,
+	            "briny": 0.325,
+	            "salty": 0.315,
+	            "vanilla": 0.19,
+	            "tart": 0.145,
+	            "fruity": 0.33,
+	            "floral": 0.11
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-6.1262054,
+					55.6355151,
+				]
+			},
+			"id": "Lagavulin"
+		},
+		// {
+		// 	"type": "Feature",
+		// 	"properties": {
+		// 		"mag": 58,
+		// 	},
+		// 	"geometry": {
+		// 		"type": "Point",
+		// 		"coordinates": [
+		// 			-3.0847,
+		// 			58.4354,
+		// 		]
+		// 	},
+		// 	"id": "Old Pultney"
+		// },
+		{
+			"type": "Feature",
+			"properties": {
+			"smoky": 0.1574074074074074,
+            "peaty": 0.03333333333333333,
+            "spicy": 0.26851851851851855,
+            "herbal": 0.07962962962962963,
+            "oily": 0.11666666666666667,
+            "full_bodied": 0.31851851851851853,
+            "rich": 0.3574074074074074,
+            "sweet": 0.3333333333333333,
+            "briny": 0.03148148148148148,
+            "salty": 0.04814814814814815,
+            "vanilla": 0.3074074074074074,
+            "tart": 0.13333333333333333,
+            "fruity": 0.3148148148148148,
+            "floral": 0.17962962962962964
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-3.1286601,
+					57.4547645,
+				]
+			},
+			"id": "Glenfiddich"
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"smoky": 0.15526315789473685,
+	            "peaty": 0.19473684210526315,
+	            "spicy": 0.2736842105263158,
+	            "herbal": 0.2026315789473684,
+	            "oily": 0.28157894736842104,
+	            "full_bodied": 0.3684210526315789,
+	            "rich": 0.37105263157894736,
+	            "sweet": 0.3684210526315789,
+	            "briny": 0.19210526315789472,
+	            "salty": 0.2710526315789474,
+	            "vanilla": 0.2894736842105263,
+	            "tart": 0.15263157894736842,
+	            "fruity": 0.3952631578947368,
+	            "floral": 0.2631578947368421
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-5.6097508,
+					55.4257842,
+				]
+			},
+			"id": "Springbank"
+		},
+		{
+			"type": "Feature",
+			"properties": {
+	            "smoky": 0.2833333333333333,
+	            "peaty": 0.2833333333333333,
+	            "spicy": 0.5166666666666667,
+	            "herbal": 0.35,
+	            "oily": 0.3333333333333333,
+	            "full_bodied": 0.5833333333333334,
+	            "rich": 0.5833333333333334,
+	            "sweet": 0.55,
+	            "briny": 0.03333333333333333,
+	            "salty": 0.13333333333333333,
+	            "vanilla": 0.4,
+	            "tart": 0.45,
+	            "fruity": 0.7,
+	            "floral": 0.36666666666666664
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-3.3953227,
+					57.4097188,
+				]
+			},
+			"id": "Cragganmore"
+		},
+		{
+			"type": "Feature",
+			"properties": {
+	            "smoky": 0.1,
+	            "peaty": 0.016666666666666666,
+	            "spicy": 0.39166666666666666,
+	            "herbal": 0.15,
+	            "oily": 0.26666666666666666,
+	            "full_bodied": 0.4166666666666667,
+	            "rich": 0.44166666666666665,
+	            "sweet": 0.6416666666666667,
+	            "briny": 0.05,
+	            "salty": 0.10833333333333334,
+	            "vanilla": 0.5416666666666666,
+	            "tart": 0.3416666666666667,
+	            "fruity": 0.525,
+	            "floral": 0.3333333333333333
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+		      		-3.3523197,
+         			57.4704521,
+				]
+			},
+			"id": "Cardhu"
+		},
+		// {
+		// 	"type": "Feature",
+		// 	"properties": {
+		// 		"smoky": 0.4,
+	 //            "peaty": 0.38,
+	 //            "spicy": 0.5,
+	 //            "herbal": 0.36,
+	 //            "oily": 0.56,
+	 //            "full_bodied": 0.7,
+	 //            "rich": 0.6,
+	 //            "sweet": 0.66,
+	 //            "briny": 0.36,
+	 //            "salty": 0.44,
+	 //            "vanilla": 0.56,
+	 //            "tart": 0.44,
+	 //            "fruity": 0.68,
+	 //            "floral": 0.58
+		// 	},
+		// 	"geometry": {
+		// 		"type": "Point",
+		// 		"coordinates": [
+		// 			-5.472281,
+		// 			56.41495,
+		// 		]
+		// 	},
+		// 	"id": "Oban"
+		// },
+				{
+			"type": "Feature",
+			"properties": {
+            "smoky": 0.12,
+            "peaty": 0.02,
+            "spicy": 0.21,
+            "herbal": 0.16,
+            "oily": 0.22,
+            "full_bodied": 0.34,
+            "rich": 0.34,
+            "sweet": 0.35,
+            "briny": 0.04,
+            "salty": 0.07,
+            "vanilla": 0.21,
+            "tart": 0.16,
+            "fruity": 0.3,
+            "floral": 0.1
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-4.0700416,
+					56.1887007,
+				]
+			},
+			"id": "Deanston"
+		},
+		{
+			"type": "Feature",
+			"properties": {
+	            "smoky": 0.08,
+	            "peaty": 0.07,
+	            "spicy": 0.22,
+	            "herbal": 0.12,
+	            "oily": 0.1,
+	            "full_bodied": 0.32,
+	            "rich": 0.32,
+	            "sweet": 0.34,
+	            "briny": 0.06,
+	            "salty": 0.18,
+	            "vanilla": 0.28,
+	            "tart": 0.14,
+	            "fruity": 0.3,
+	            "floral": 0.28
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-4.2413287,
+					56.939995,
+				]
+			},
+			"id": "Dalwhinnie"
+		},
+				{
+			"type": "Feature",
+			"properties": {
+	            "smoky": 0.175,
+	            "peaty": 0.05,
+	            "spicy": 0.325,
+	            "herbal": 0.2875,
+	            "oily": 0.25,
+	            "full_bodied": 0.575,
+	            "rich": 0.4625,
+	            "sweet": 0.525,
+	            "briny": 0.05,
+	            "salty": 0.15,
+	            "vanilla": 0.55,
+	            "tart": 0.375,
+	            "fruity": 0.475,
+	            "floral": 0.35
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.8937579,
+					55.8914533,
+				]
+			},
+			"id": "Glenkinchie"
+		},
+		{
+			"type": "Feature",
+			"properties": {
+	            "smoky": 0.175,
+	            "peaty": 0.05,
+	            "spicy": 0.325,
+	            "herbal": 0.2875,
+	            "oily": 0.25,
+	            "full_bodied": 0.575,
+	            "rich": 0.4625,
+	            "sweet": 0.525,
+	            "briny": 0.05,
+	            "salty": 0.15,
+	            "vanilla": 0.55,
+	            "tart": 0.375,
+	            "fruity": 0.475,
+	            "floral": 0.35
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-6.1115274,
+					55.8540991,
+				]
+			},
+			"id": "Caol Ila"
+		},
+		// {
+		// 	"type": "Feature",
+		// 	"properties": {
+		// 		"mag": 43,
+		// 	},
+		// 	"geometry": {
+		// 		"type": "Point",
+		// 		"coordinates": [
+		// 			-6.1543927,
+		// 			55.6300569,
+		// 		]
+		// 	},
+		// 	"id": "Laphroiag"
+		// },
+		// 	{
+		// 	"type": "Feature",
+		// 	"properties": {
+		// 		"Smoky":40,
+		// 		"Peaty":30,
+		// 		"Spicy":40,
+		// 		"Herbal":20,
+		// 		"Oily":40,
+		// 		"Full_bodied":70,
+		// 		"Rich":80,
+		// 		"Sweet":70,
+		// 		"Briny":20,
+		// 		"Salty":40,
+		// 		"Vanilla":50,
+		// 		"Tart":50,
+		// 		"Fruity":70,
+		// 		"Floral":20,
+		// 		},
+		// 	"geometry": {
+		// 		"type": "Point",
+		// 		"coordinates": [
+		// 			-3.2103307,
+		// 			57.4845275,
+		// 		]
+		// 	},
+		// 		"Id":”17578”, // < not sure if useful but may be helpful 
+		// 		“Name”: “Highland Park 18 Year”,
+		// 		"brand": "Highland Park" // < this is what the map point will be for the distilleries.
+		// },
+// these are done LAT, LONG. Data below wants LONG, LAT!!!
+// 	2 - "Macallan" : 57.4845275,-3.2103307, 
+// 6 - “Bowmore” : 55.756868,-6.289846,
+// 15 – 	“Talisker” : 57.3023159,-6.3570732
+// 16 - "Lagavulin" : 55.6355151,-6.1262054
+// 24 “Old Pultney” : 58.4354,-3.0847
+// 32 “Glenfiddich” : 57.4547645,-3.1286601
+// 46 – “ Springbank”  : 55.4257842,-5.6097508, 
+// 67 Cragganmore :  57.4097188,-3.3953227
+// 182 “Laphroiag” : 55.6300569,-6.1543927
+// 199 “Cardhu” : 57.4704521,-3.3523197
+
+],"bbox":[-179.463,-60.7674,-2.9,178.4321,67.0311,609.13]})
+
+/*
+
+eqfeed_callback(
+{"type":"FeatureCollection","metadata":{"generated":1395197681000,
+"url":"http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_week.geojsonp",
+"title":"USGS Magnitude 1.0+ Earthquakes, Past Week","status":200,"api":"1.0.13","count":2},
+"features":[
+
+],"bbox":[-179.463,-60.7674,-2.9,178.4321,67.0311,609.13]})
+
+*/
+
+
+
