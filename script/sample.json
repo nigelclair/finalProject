@@ -239,33 +239,33 @@ eqfeed_callback({"type": "FeatureCollection",
 			},
 			"id": "Cardhu"
 		},
-		{
-			"type": "Feature",
-			"properties": {
-				"smoky": 0.4,
-	            "peaty": 0.38,
-	            "spicy": 0.5,
-	            "herbal": 0.36,
-	            "oily": 0.56,
-	            "full_bodied": 0.7,
-	            "rich": 0.6,
-	            "sweet": 0.66,
-	            "briny": 0.36,
-	            "salty": 0.44,
-	            "vanilla": 0.56,
-	            "tart": 0.44,
-	            "fruity": 0.68,
-	            "floral": 0.58
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-5.472281,
-					56.41495,
-				]
-			},
-			"id": "Oban"
-		},
+		// {
+		// 	"type": "Feature",
+		// 	"properties": {
+		// 		"smoky": 0.4,
+	 //            "peaty": 0.38,
+	 //            "spicy": 0.5,
+	 //            "herbal": 0.36,
+	 //            "oily": 0.56,
+	 //            "full_bodied": 0.7,
+	 //            "rich": 0.6,
+	 //            "sweet": 0.66,
+	 //            "briny": 0.36,
+	 //            "salty": 0.44,
+	 //            "vanilla": 0.56,
+	 //            "tart": 0.44,
+	 //            "fruity": 0.68,
+	 //            "floral": 0.58
+		// 	},
+		// 	"geometry": {
+		// 		"type": "Point",
+		// 		"coordinates": [
+		// 			-5.472281,
+		// 			56.41495,
+		// 		]
+		// 	},
+		// 	"id": "Oban"
+		// },
 				{
 			"type": "Feature",
 			"properties": {

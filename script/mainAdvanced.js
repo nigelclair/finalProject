@@ -116,7 +116,7 @@ $('.ui.sidebar').sidebar('show');
                 path: google.maps.SymbolPath.CIRCLE,
                 strokeWeight: 0.5,
                 strokeColor: '#fff',
-                fillColor: 'red',
+                fillColor: '#da0000',
                 fillOpacity: 0.65, //1 / feature.getProperty('mag'),
                 // while an exponent would technically be correct, quadratic looks nicer
                 scale: Math.pow(feature.getProperty('smoky')*100, 1)
@@ -136,21 +136,257 @@ $('.ui.sidebar').sidebar('show');
                 path: google.maps.SymbolPath.CIRCLE,
                 strokeWeight: 0.5,
                 strokeColor: '#fff',
-                fillColor: 'green',
+                fillColor: '#da4d00',
                 fillOpacity: 0.65, //1 / feature.getProperty('mag'),
                 // while an exponent would technically be correct, quadratic looks nicer
-                scale: Math.pow(feature.getProperty('mag'), 1)
+                scale: Math.pow(feature.getProperty('peaty')*100, 1)
               },
-              zIndex: Math.floor(feature.getProperty('mag'))
+              zIndex: Math.floor(feature.getProperty('peaty'))
             };
 
 
           });
         });
 
+        document.querySelector('.js-btn-spicy').addEventListener('click', function(e) {
+          $('.ui.sidebar').sidebar('hide');
+          map.data.setStyle(function(feature){
+            return {
+              icon: {
+                path: google.maps.SymbolPath.CIRCLE,
+                strokeWeight: 0.5,
+                strokeColor: '#fff',
+                fillColor: '#ff6c00',
+                fillOpacity: 0.65, //1 / feature.getProperty('mag'),
+                // while an exponent would technically be correct, quadratic looks nicer
+                scale: Math.pow(feature.getProperty('spicy')*100, 1)
+              },
+              zIndex: Math.floor(feature.getProperty('spicy'))
+            };
 
 
+          });
+        });
 
+        document.querySelector('.js-btn-herbal').addEventListener('click', function(e) {
+          $('.ui.sidebar').sidebar('hide');
+          map.data.setStyle(function(feature){
+            return {
+              icon: {
+                path: google.maps.SymbolPath.CIRCLE,
+                strokeWeight: 0.5,
+                strokeColor: '#fff',
+                fillColor: '#f0a900',
+                fillOpacity: 0.65, //1 / feature.getProperty('mag'),
+                // while an exponent would technically be correct, quadratic looks nicer
+                scale: Math.pow(feature.getProperty('herbal')*100, 1)
+              },
+              zIndex: Math.floor(feature.getProperty('herbal'))
+            };
+
+
+          });
+        });
+
+                document.querySelector('.js-btn-oily').addEventListener('click', function(e) {
+          $('.ui.sidebar').sidebar('hide');
+          map.data.setStyle(function(feature){
+            return {
+              icon: {
+                path: google.maps.SymbolPath.CIRCLE,
+                strokeWeight: 0.5,
+                strokeColor: '#fff',
+                fillColor: '#ecd303',
+                fillOpacity: 0.65, //1 / feature.getProperty('mag'),
+                // while an exponent would technically be correct, quadratic looks nicer
+                scale: Math.pow(feature.getProperty('oily')*100, 1)
+              },
+              zIndex: Math.floor(feature.getProperty('oily'))
+            };
+
+
+          });
+        });
+
+               document.querySelector('.js-btn-fullbodied').addEventListener('click', function(e) {
+          $('.ui.sidebar').sidebar('hide');
+          map.data.setStyle(function(feature){
+            return {
+              icon: {
+                path: google.maps.SymbolPath.CIRCLE,
+                strokeWeight: 0.5,
+                strokeColor: '#fff',
+                fillColor: '#7fc800',
+                fillOpacity: 0.65, //1 / feature.getProperty('mag'),
+                // while an exponent would technically be correct, quadratic looks nicer
+                scale: Math.pow(feature.getProperty('full_bodied')*100, 1)
+              },
+              zIndex: Math.floor(feature.getProperty('full_bodied'))
+            };
+
+
+          });
+        });
+
+             document.querySelector('.js-btn-rich').addEventListener('click', function(e) {
+          $('.ui.sidebar').sidebar('hide');
+          map.data.setStyle(function(feature){
+            return {
+              icon: {
+                path: google.maps.SymbolPath.CIRCLE,
+                strokeWeight: 0.5,
+                strokeColor: '#fff',
+                fillColor: '#28b601',
+                fillOpacity: 0.65, //1 / feature.getProperty('mag'),
+                // while an exponent would technically be correct, quadratic looks nicer
+                scale: Math.pow(feature.getProperty('rich')*100, 1)
+              },
+              zIndex: Math.floor(feature.getProperty('rich'))
+            };
+
+
+          });
+        });
+
+             document.querySelector('.js-btn-sweet').addEventListener('click', function(e) {
+          $('.ui.sidebar').sidebar('hide');
+          map.data.setStyle(function(feature){
+            return {
+              icon: {
+                path: google.maps.SymbolPath.CIRCLE,
+                strokeWeight: 0.5,
+                strokeColor: '#fff',
+                fillColor: '#00db71',
+                fillOpacity: 0.65, //1 / feature.getProperty('mag'),
+                // while an exponent would technically be correct, quadratic looks nicer
+                scale: Math.pow(feature.getProperty('sweet')*100, 1)
+              },
+              zIndex: Math.floor(feature.getProperty('sweet'))
+            };
+
+
+          });
+        });
+
+             document.querySelector('.js-btn-briny').addEventListener('click', function(e) {
+          $('.ui.sidebar').sidebar('hide');
+          map.data.setStyle(function(feature){
+            return {
+              icon: {
+                path: google.maps.SymbolPath.CIRCLE,
+                strokeWeight: 0.5,
+                strokeColor: '#fff',
+                fillColor: '#00dbd8',
+                fillOpacity: 0.65, //1 / feature.getProperty('mag'),
+                // while an exponent would technically be correct, quadratic looks nicer
+                scale: Math.pow(feature.getProperty('briny')*100, 1)
+              },
+              zIndex: Math.floor(feature.getProperty('briny'))
+            };
+
+
+          });
+        });
+
+             document.querySelector('.js-btn-salty').addEventListener('click', function(e) {
+          $('.ui.sidebar').sidebar('hide');
+          map.data.setStyle(function(feature){
+            return {
+              icon: {
+                path: google.maps.SymbolPath.CIRCLE,
+                strokeWeight: 0.5,
+                strokeColor: '#fff',
+                fillColor: '#0081db',
+                fillOpacity: 0.65, //1 / feature.getProperty('mag'),
+                // while an exponent would technically be correct, quadratic looks nicer
+                scale: Math.pow(feature.getProperty('salty')*100, 1)
+              },
+              zIndex: Math.floor(feature.getProperty('salty'))
+            };
+
+
+          });
+        });
+
+             document.querySelector('.js-btn-vanilla').addEventListener('click', function(e) {
+          $('.ui.sidebar').sidebar('hide');
+          map.data.setStyle(function(feature){
+            return {
+              icon: {
+                path: google.maps.SymbolPath.CIRCLE,
+                strokeWeight: 0.5,
+                strokeColor: '#fff',
+                fillColor: '#001eff',
+                fillOpacity: 0.65, //1 / feature.getProperty('mag'),
+                // while an exponent would technically be correct, quadratic looks nicer
+                scale: Math.pow(feature.getProperty('vanilla')*100, 1)
+              },
+              zIndex: Math.floor(feature.getProperty('vanilla'))
+            };
+
+
+          });
+        });
+
+            document.querySelector('.js-btn-tart').addEventListener('click', function(e) {
+          $('.ui.sidebar').sidebar('hide');
+          map.data.setStyle(function(feature){
+            return {
+              icon: {
+                path: google.maps.SymbolPath.CIRCLE,
+                strokeWeight: 0.5,
+                strokeColor: '#fff',
+                fillColor: '#5a00ff',
+                fillOpacity: 0.65, //1 / feature.getProperty('mag'),
+                // while an exponent would technically be correct, quadratic looks nicer
+                scale: Math.pow(feature.getProperty('tart')*100, 1)
+              },
+              zIndex: Math.floor(feature.getProperty('tart'))
+            };
+
+
+          });
+        });
+
+             document.querySelector('.js-btn-fruity').addEventListener('click', function(e) {
+          $('.ui.sidebar').sidebar('hide');
+          map.data.setStyle(function(feature){
+            return {
+              icon: {
+                path: google.maps.SymbolPath.CIRCLE,
+                strokeWeight: 0.5,
+                strokeColor: '#fff',
+                fillColor: '#9a00ea',
+                fillOpacity: 0.65, //1 / feature.getProperty('mag'),
+                // while an exponent would technically be correct, quadratic looks nicer
+                scale: Math.pow(feature.getProperty('fruity')*100, 1)
+              },
+              zIndex: Math.floor(feature.getProperty('fruity'))
+            };
+
+
+          });
+        });
+
+            document.querySelector('.js-btn-floral').addEventListener('click', function(e) {
+          $('.ui.sidebar').sidebar('hide');
+          map.data.setStyle(function(feature){
+            return {
+              icon: {
+                path: google.maps.SymbolPath.CIRCLE,
+                strokeWeight: 0.5,
+                strokeColor: '#fff',
+                fillColor: '#ff00a2',
+                fillOpacity: 0.65, //1 / feature.getProperty('mag'),
+                // while an exponent would technically be correct, quadratic looks nicer
+                scale: Math.pow(feature.getProperty('floral')*100, 1)
+              },
+              zIndex: Math.floor(feature.getProperty('floral'))
+            };
+
+
+          });
+        });
         // Get the earthquake data (JSONP format)
         // This feed is a copy from the USGS feed, you can find the originals here:
         //   http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
